@@ -10,7 +10,7 @@
 ;;;add directory "layer"in load path, make sure all configs can be fetched
 ;;;ATTENTION:after regular setting you have to add (provide 'filename(without .el)) at last
 ;;;this is necessary, or you could not require it
-(add-to-list 'load-path "~/.emacs.d/layer/")
+(add-to-list 'load-path "~/.emacs.d/configs/")
 
 ;;;;;;;;;;;;init-package.el settings as follow
 ;;;(1)chinese mirrors package repository,please pay attention "http" and "https"
